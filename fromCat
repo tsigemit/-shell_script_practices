@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+echo "To check From Cat command"
+sum=$((4+10))  
+echo "sum of the numbers are $sum"
+if test $1 -gt 0; then
+echo "value is greater than zero"
+else
+echo "value is less than zero"
+fi
